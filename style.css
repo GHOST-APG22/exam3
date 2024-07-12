@@ -1,0 +1,346 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+.header-content {
+    display: flex;
+    gap: 129px;
+    height: 70px;
+    align-items: center;
+}
+
+ul li a {
+    /* Dorilar */
+
+margin: 0 auto;
+width: 75px;
+height: 21px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 150%;
+/* identical to box height, or 21px */
+letter-spacing: 2px;
+text-transform: uppercase;
+
+color: #222222;
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+
+}
+
+
+.header-content a:hover{
+    /* Dorilar */
+    margin: 0 auto;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+    /* identical to box height, or 21px */
+    color: red ;
+    }
+
+.header-content p :hover {
+    color: yellowgreen;
+
+}
+    
+
+ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+.btn button {
+   /* button */
+
+box-sizing: border-box;
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 24px;
+
+margin: 0 auto;
+width: 189px;
+height: 47px;
+
+background: #FFFFFF;
+border: 2px solid #DE2E54;
+border-radius: 8px;
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+
+}
+
+#bir {
+    background-image: url(img/image\ 4.svg);
+    background-size: cover;
+    /* padding-left: 250px;
+    width: 1200px;
+    height: 535px;
+    padding-top: 50px; */
+}
+
+
+.btn1 button {
+    /* button */
+ 
+ box-sizing: border-box;
+ 
+ /* Auto layout */
+ 
+ 
+ 
+ padding: 12px 24px;
+ 
+ margin: 0 auto;
+ width: 189px;
+ height: 47px;
+ 
+ background: #DE2E54;
+ border: 2px solid #DE2E54;
+ border-radius: 8px;
+ 
+ /* Inside auto layout */
+ flex: none;
+ order: 4;
+ flex-grow: 0;
+ margin-top: 49px;
+ 
+ }
+
+ .text1 {
+    /* Tabiiy davolash usullari yordamida kasalliklardan xalos bo’ling. */
+
+
+
+/* Big heading */
+font-family: 'Open Sans Condensed';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 120%;
+/* or 43px */
+
+color: #FFFFFF;
+
+
+ }
+
+.section-partent {
+    display: flex;
+    gap: 200px;
+    height: 533;
+    align-items: center;
+    
+   
+}
+
+
+.text-div {
+    /* services-heading */
+
+
+/* Big heading */
+font-family: 'Open Sans Condensed';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 120%;
+/* or 43px */
+
+color: #000000;
+
+text-align: center;
+
+
+}
+
+.text-card {
+    /* Imom Termiziy Abdulloh ibn Abbos raziyallohu anhumodan rivoyat qilgan hadisda rasululloh sallallohu alayhi va sallam dedilar: «Sizlar hijoma qiladigan kunlaringizning eng yaxshisi 17, 19 va 21-kunlardir» (bu kunlar hijrij-kamariy hisobdagi oylar kunlaridir). */
+
+width: 600px;
+height: 96px;
+
+/* Body text */
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+/* or 24px */
+
+color: #444444;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+margin-top: 24px;
+
+}
+
+.card-title {
+    /* Hijoma */
+
+width: 67px;
+height: 29px;
+
+/* Smaller heading */
+font-family: 'Open Sans Condensed';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 120%;
+/* identical to box height, or 29px */
+
+color: #222222;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+    
+}
+
+
+.card-1 {
+    display: flex;
+    gap: 64px;
+    justify-content: center;
+
+}
+
+
+.card-2 {
+    display: flex;
+    gap: 64px;
+    justify-content: center;
+    margin-top: 45px;
+
+}
+
+.hero-img {
+    display: flex;
+    height: 533px;
+    justify-items: end;
+   
+}
+
+#uch {
+    background: #0EB4C1;
+    height: 550px;
+
+}
+
+.title-div {
+    /* Contact me */
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 64px;
+line-height: 77px;
+text-align: center;
+
+color: #000000;
+
+
+}
+
+.input-ota { 
+    width: 540px; 
+    height: 331px; 
+    background-color: white; 
+} 
+ 
+button { 
+    width: 470px; 
+height: 39.11px; 
+background: #38CC8B; 
+margin-top: 13px; 
+ 
+} 
+ 
+form input { 
+    width: 460px; 
+height: 39.11px; 
+ 
+} 
+ 
+form input { 
+    margin-top: 13px; 
+} 
+ 
+.input-ota { 
+    width: 540px; 
+    height: 331px; 
+    text-align: center; 
+    border-radius: 10px; 
+    padding-top: 13px; 
+     
+}
+
+.orta-content {
+    display: flex;
+    justify-content: center;
+    gap: 68px;
+    margin-top: 100px;
+}
+
+.footer-right {
+    display: flex;
+    gap: 32px;
+   
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    height: 97px;
+    align-items: center;
+    
+}
+
+footer {
+    background: #222222;
+
+}
+
+.-content {
+    display: flex;
+    height: 98px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+p  {
+    color: #FFFFFF;
+}
